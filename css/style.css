@@ -64,17 +64,45 @@ span {
 
 .label {
     position: relative;
-    color: white;
     padding: 5px;
-    display: inline-block;
 }
 
 .green {
     background-color: green;
     bottom: 130px;
+    color: white;
+    display: inline-block;
 }
 
 .red {
     background-color: red;
     bottom: 130px;
+    color: white;
+    display: inline-block;
+}
+
+.white {
+    background-color: white;
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    left: 337px;
+    bottom: 600px;
+}
+
+.col-50 {
+    width: 50%;
+    height: 100px;
+    border: 1px solid white;
+    color: white;
+    padding: 20px;
+}
+
+.black {
+    background-color: black;
+}
+
+h4 {
+    font-size: 25px;
+    padding-right: 275px;
 }
