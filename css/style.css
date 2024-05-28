@@ -52,9 +52,29 @@ li {
 .clothes-img {
     width: 100%;
     height: auto;
-    margin: 10px;
 }
 
 .margin {
     margin: 50px;
+}
+
+span {
+    color: red;
+}
+
+.label {
+    position: relative;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+.green {
+    background-color: green;
+    bottom: 130px;
+}
+
+.red {
+    background-color: red;
+    bottom: 130px;
 }
