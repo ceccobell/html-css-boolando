@@ -15,7 +15,33 @@
 
 .col-33 {
     width: calc(100% / 3);
-    height: 100px;
     background-color: #FF6900;
-    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#logo {
+    width: 30%;
+    height: auto;
+}
+
+.utility {
+    width: 3%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-10 {
+    padding: 10px;
 }
