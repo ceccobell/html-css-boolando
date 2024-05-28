@@ -53,7 +53,25 @@ li {
 .clothes-img {
     width: 100%;
     height: auto;
+    display: block;
 }
+
+.d-none {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.content:hover .clothes-img{
+    display: none;
+}
+
+.content:hover .d-none {
+    display: block;
+}
+
+
+
 
 .margin {
     margin: 50px;
@@ -72,6 +90,11 @@ span {
     position: absolute;
     top: 20px;
     right: 10px;
+}
+
+
+.d-none {
+    display: none;
 }
 
 .green {
