@@ -70,9 +70,6 @@ li {
     display: block;
 }
 
-
-
-
 .margin {
     margin: 50px;
 }
@@ -90,6 +87,12 @@ span {
     position: absolute;
     top: 20px;
     right: 10px;
+    z-index: 1;
+}
+
+.label-heart:hover {
+    color: red;
+    cursor: pointer;
 }
 
 
