@@ -15,6 +15,7 @@
 
 .col-33 {
     width: calc(100% / 3);
+    position: relative;
 }
 
 .orange {
@@ -67,6 +68,12 @@ span {
     padding: 5px;
 }
 
+.label-heart {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
 .green {
     background-color: green;
     bottom: 130px;
@@ -85,9 +92,6 @@ span {
     background-color: white;
     padding: 5px;
     font-size: 30px;
-    width: 30px;
-    left: 337px;
-    bottom: 600px;
 }
 
 .col-50 {
