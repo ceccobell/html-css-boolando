@@ -15,6 +15,9 @@
 
 .col-33 {
     width: calc(100% / 3);
+}
+
+.orange {
     background-color: #FF6900;
 }
 
@@ -44,4 +47,14 @@ li {
 
 .py-10 {
     padding: 10px;
+}
+
+.clothes-img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.margin {
+    margin: 50px;
 }
